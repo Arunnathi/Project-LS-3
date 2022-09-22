@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playground</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- font awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- bootstrap 4-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light bg-opacity-100 border-bottom">
+            <div class="container">
+                <a class="navbar-brand " href="index.html">
+                    <img src="./Trust Media 1.svg"
+                        style="width:212.472px; height:50px; position: relative; left:20px;" />
+
+                </a>
+                <a class="navbar-brand text-dark pl" href="index.html"><strong> Admin Panel</strong></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container-fluid">
+            <div class="row ">
+                <div class="col-2 border-end ps-1 pe-3  ">
+
+                    <div class="list-group text-center position-fixed " id="list-tab" role="tablist">
+                        <h2 class="lead text-center border-bottom d-sm-none d-md-block p-3"><strong>Menu</strong>
+                        </h2>
+                        <button
+                            class="list-group-item active w-100 list-group-item-light mt-2 btn btn-outline-primary rounded-pill border-0 "
+                            id="list-home-list" data-toggle="list" href="#list-home" role="tab"
+                            aria-controls="home">Home</button>
+                        <button
+                            class="list-group-item w-100 list-group-item-light mt-2 btn btn-outline-primary rounded-pill border-0 "
+                            id="list-advertisers-list" data-toggle="list" href="#list-advertisers" role="tab"
+                            aria-controls="advertisers">Registered
+                            Advertisers</button>
+                        <button
+                            class="list-group-item list-group-item-light btn mt-2  btn-outline-primary rounded-pill border-0 "
+                            id="list-publishers-list" data-toggle="list" href="#list-publishers" role="tab"
+                            aria-controls="publishers">Registered Publishers</button>
+                    </div>
+                </div>
+                <div class="col-10 ">
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="list-home" role="tabpanel"
+                            aria-labelledby="list-home-list">
+                            <div class="container">
+                                <div class="row d-flex justify-content-center">
+                                    <div class="col-auto">
+                                        <div class="card">
+                                            <div class="card-text">
+                                                <h1 class="lead text-center px-2"><strong>Advertisers</strong></h1>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-auto">
+                                        <div class="card">
+                                            <div class="card-text">
+                                                <h1 class="lead text-center px-2"><strong>Publishers</strong></h1>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade " id="list-advertisers" role="tabpanel"
+                            aria-labelledby="list-advertisers-list">
+                            <div class="container">
+                                <table class="table table-hover table-responsive table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">#</th>
+                                            <th scope="col">Full Name</th>
+                                            <th scope="col">E-mail</th>
+                                            <th scope="col">Company Name</th>
+                                            <th scope="col">Skype ID</th>
+                                            <th scope="col">Phone Number</th>
+                                            <th scope="col">Password</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>xxxxxxxxxxxxxxxxxxxxxxx</td>
+                                            <td>yyyyyyyyyyyyyyyyyyyyyyy</td>
+                                            <td>zzzzzzzzzzzzzzzzzzzzzzz</td>
+                                            <td>aaaaaaaaaaaaaaaaaaaaaaa</td>
+                                            <td>bbbbbbbbbbbbbbbbbbbbbbb</td>
+                                            <td>ccccccccccccccccccccccc</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">2</th>
+                                            <td>xxxxxxxxxxxxxxxxxxxxxxx</td>
+                                            <td>yyyyyyyyyyyyyyyyyyyyyyy</td>
+                                            <td>zzzzzzzzzzzzzzzzzzzzzzz</td>
+                                            <td>aaaaaaaaaaaaaaaaaaaaaaa</td>
+                                            <td>bbbbbbbbbbbbbbbbbbbbbbb</td>
+                                            <td>ccccccccccccccccccccccc</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">3</th>
+                                            <td>xxxxxxxxxxxxxxxxxxxxxxx</td>
+                                            <td>yyyyyyyyyyyyyyyyyyyyyyy</td>
+                                            <td>zzzzzzzzzzzzzzzzzzzzzzz</td>
+                                            <td>aaaaaaaaaaaaaaaaaaaaaaa</td>
+                                            <td>bbbbbbbbbbbbbbbbbbbbbbb</td>
+                                            <td>ccccccccccccccccccccccc</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">4</th>
+                                            <td>xxxxxxxxxxxxxxxxxxxxxxx</td>
+                                            <td>yyyyyyyyyyyyyyyyyyyyyyy</td>
+                                            <td>zzzzzzzzzzzzzzzzzzzzzzz</td>
+                                            <td>aaaaaaaaaaaaaaaaaaaaaaa</td>
+                                            <td>bbbbbbbbbbbbbbbbbbbbbbb</td>
+                                            <td>ccccccccccccccccccccccc</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">5</th>
+                                            <td>xxxxxxxxxxxxxxxxxxxxxxx</td>
+                                            <td>yyyyyyyyyyyyyyyyyyyyyyy</td>
+                                            <td>zzzzzzzzzzzzzzzzzzzzzzz</td>
+                                            <td>aaaaaaaaaaaaaaaaaaaaaaa</td>
+                                            <td>bbbbbbbbbbbbbbbbbbbbbbb</td>
+                                            <td>ccccccccccccccccccccccc</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="list-publishers" role="tabpanel"
+                            aria-labelledby="list-publishers-list">
+                            <div class="container" style="height:min-content;overflow-x:scroll;">
+                                <table class="table table-hover  table-striped  ">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">#</th>
+                                            <th scope="col">Full Name</th>
+                                            <th scope="col">E-mail</th>
+                                            <th scope="col">Company Name</th>
+                                            <th scope="col">Skype ID</th>
+                                            <th scope="col">Phone Number</th>
+                                            <th scope="col">Password</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>aaaaaaaaaaaaaaaaaaaaaaa</td>
+                                            <td>bbbbbbbbbbbbbbbbbbbbbbb</td>
+                                            <td>ccccccccccccccccccccccc</td>
+                                            <td>xxxxxxxxxxxxxxxxxxxxxxx</td>
+                                            <td>yyyyyyyyyyyyyyyyyyyyyyy</td>
+                                            <td>zzzzzzzzzzzzzzzzzzzzzzz</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>aaaaaaaaaaaaaaaaaaaaaaa</td>
+                                            <td>bbbbbbbbbbbbbbbbbbbbbbb</td>
+                                            <td>ccccccccccccccccccccccc</td>
+                                            <td>xxxxxxxxxxxxxxxxxxxxxxx</td>
+                                            <td>yyyyyyyyyyyyyyyyyyyyyyy</td>
+                                            <td>zzzzzzzzzzzzzzzzzzzzzzz</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>aaaaaaaaaaaaaaaaaaaaaaa</td>
+                                            <td>bbbbbbbbbbbbbbbbbbbbbbb</td>
+                                            <td>ccccccccccccccccccccccc</td>
+                                            <td>xxxxxxxxxxxxxxxxxxxxxxx</td>
+                                            <td>yyyyyyyyyyyyyyyyyyyyyyy</td>
+                                            <td>zzzzzzzzzzzzzzzzzzzzzzz</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>aaaaaaaaaaaaaaaaaaaaaaa</td>
+                                            <td>bbbbbbbbbbbbbbbbbbbbbbb</td>
+                                            <td>ccccccccccccccccccccccc</td>
+                                            <td>xxxxxxxxxxxxxxxxxxxxxxx</td>
+                                            <td>yyyyyyyyyyyyyyyyyyyyyyy</td>
+                                            <td>zzzzzzzzzzzzzzzzzzzzzzz</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>aaaaaaaaaaaaaaaaaaaaaaa</td>
+                                            <td>bbbbbbbbbbbbbbbbbbbbbbb</td>
+                                            <td>ccccccccccccccccccccccc</td>
+                                            <td>xxxxxxxxxxxxxxxxxxxxxxx</td>
+                                            <td>yyyyyyyyyyyyyyyyyyyyyyy</td>
+                                            <td>zzzzzzzzzzzzzzzzzzzzzzz</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>aaaaaaaaaaaaaaaaaaaaaaa</td>
+                                            <td>bbbbbbbbbbbbbbbbbbbbbbb</td>
+                                            <td>ccccccccccccccccccccccc</td>
+                                            <td>xxxxxxxxxxxxxxxxxxxxxxx</td>
+                                            <td>yyyyyyyyyyyyyyyyyyyyyyy</td>
+                                            <td>zzzzzzzzzzzzzzzzzzzzzzz</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>aaaaaaaaaaaaaaaaaaaaaaa</td>
+                                            <td>bbbbbbbbbbbbbbbbbbbbbbb</td>
+                                            <td>ccccccccccccccccccccccc</td>
+                                            <td>xxxxxxxxxxxxxxxxxxxxxxx</td>
+                                            <td>yyyyyyyyyyyyyyyyyyyyyyy</td>
+                                            <td>zzzzzzzzzzzzzzzzzzzzzzz</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>aaaaaaaaaaaaaaaaaaaaaaa</td>
+                                            <td>bbbbbbbbbbbbbbbbbbbbbbb</td>
+                                            <td>ccccccccccccccccccccccc</td>
+                                            <td>xxxxxxxxxxxxxxxxxxxxxxx</td>
+                                            <td>yyyyyyyyyyyyyyyyyyyyyyy</td>
+                                            <td>zzzzzzzzzzzzzzzzzzzzzzz</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>aaaaaaaaaaaaaaaaaaaaaaa</td>
+                                            <td>bbbbbbbbbbbbbbbbbbbbbbb</td>
+                                            <td>ccccccccccccccccccccccc</td>
+                                            <td>xxxxxxxxxxxxxxxxxxxxxxx</td>
+                                            <td>yyyyyyyyyyyyyyyyyyyyyyy</td>
+                                            <td>zzzzzzzzzzzzzzzzzzzzzzz</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>aaaaaaaaaaaaaaaaaaaaaaa</td>
+                                            <td>bbbbbbbbbbbbbbbbbbbbbbb</td>
+                                            <td>ccccccccccccccccccccccc</td>
+                                            <td>xxxxxxxxxxxxxxxxxxxxxxx</td>
+                                            <td>yyyyyyyyyyyyyyyyyyyyyyy</td>
+                                            <td>zzzzzzzzzzzzzzzzzzzzzzz</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>aaaaaaaaaaaaaaaaaaaaaaa</td>
+                                            <td>bbbbbbbbbbbbbbbbbbbbbbb</td>
+                                            <td>ccccccccccccccccccccccc</td>
+                                            <td>xxxxxxxxxxxxxxxxxxxxxxx</td>
+                                            <td>yyyyyyyyyyyyyyyyyyyyyyy</td>
+                                            <td>zzzzzzzzzzzzzzzzzzzzzzz</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>aaaaaaaaaaaaaaaaaaaaaaa</td>
+                                            <td>bbbbbbbbbbbbbbbbbbbbbbb</td>
+                                            <td>ccccccccccccccccccccccc</td>
+                                            <td>xxxxxxxxxxxxxxxxxxxxxxx</td>
+                                            <td>yyyyyyyyyyyyyyyyyyyyyyy</td>
+                                            <td>zzzzzzzzzzzzzzzzzzzzzzz</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>aaaaaaaaaaaaaaaaaaaaaaa</td>
+                                            <td>bbbbbbbbbbbbbbbbbbbbbbb</td>
+                                            <td>ccccccccccccccccccccccc</td>
+                                            <td>xxxxxxxxxxxxxxxxxxxxxxx</td>
+                                            <td>yyyyyyyyyyyyyyyyyyyyyyy</td>
+                                            <td>zzzzzzzzzzzzzzzzzzzzzzz</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>aaaaaaaaaaaaaaaaaaaaaaa</td>
+                                            <td>bbbbbbbbbbbbbbbbbbbbbbb</td>
+                                            <td>ccccccccccccccccccccccc</td>
+                                            <td>xxxxxxxxxxxxxxxxxxxxxxx</td>
+                                            <td>yyyyyyyyyyyyyyyyyyyyyyy</td>
+                                            <td>zzzzzzzzzzzzzzzzzzzzzzz</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>aaaaaaaaaaaaaaaaaaaaaaa</td>
+                                            <td>bbbbbbbbbbbbbbbbbbbbbbb</td>
+                                            <td>ccccccccccccccccccccccc</td>
+                                            <td>xxxxxxxxxxxxxxxxxxxxxxx</td>
+                                            <td>yyyyyyyyyyyyyyyyyyyyyyy</td>
+                                            <td>zzzzzzzzzzzzzzzzzzzzzzz</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>aaaaaaaaaaaaaaaaaaaaaaa</td>
+                                            <td>bbbbbbbbbbbbbbbbbbbbbbb</td>
+                                            <td>ccccccccccccccccccccccc</td>
+                                            <td>xxxxxxxxxxxxxxxxxxxxxxx</td>
+                                            <td>yyyyyyyyyyyyyyyyyyyyyyy</td>
+                                            <td>zzzzzzzzzzzzzzzzzzzzzzz</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>aaaaaaaaaaaaaaaaaaaaaaa</td>
+                                            <td>bbbbbbbbbbbbbbbbbbbbbbb</td>
+                                            <td>ccccccccccccccccccccccc</td>
+                                            <td>xxxxxxxxxxxxxxxxxxxxxxx</td>
+                                            <td>yyyyyyyyyyyyyyyyyyyyyyy</td>
+                                            <td>zzzzzzzzzzzzzzzzzzzzzzz</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>aaaaaaaaaaaaaaaaaaaaaaa</td>
+                                            <td>bbbbbbbbbbbbbbbbbbbbbbb</td>
+                                            <td>ccccccccccccccccccccccc</td>
+                                            <td>xxxxxxxxxxxxxxxxxxxxxxx</td>
+                                            <td>yyyyyyyyyyyyyyyyyyyyyyy</td>
+                                            <td>zzzzzzzzzzzzzzzzzzzzzzz</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>aaaaaaaaaaaaaaaaaaaaaaa</td>
+                                            <td>bbbbbbbbbbbbbbbbbbbbbbb</td>
+                                            <td>ccccccccccccccccccccccc</td>
+                                            <td>xxxxxxxxxxxxxxxxxxxxxxx</td>
+                                            <td>yyyyyyyyyyyyyyyyyyyyyyy</td>
+                                            <td>zzzzzzzzzzzzzzzzzzzzzzz</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>aaaaaaaaaaaaaaaaaaaaaaa</td>
+                                            <td>bbbbbbbbbbbbbbbbbbbbbbb</td>
+                                            <td>ccccccccccccccccccccccc</td>
+                                            <td>xxxxxxxxxxxxxxxxxxxxxxx</td>
+                                            <td>yyyyyyyyyyyyyyyyyyyyyyy</td>
+                                            <td>zzzzzzzzzzzzzzzzzzzzzzz</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>aaaaaaaaaaaaaaaaaaaaaaa</td>
+                                            <td>bbbbbbbbbbbbbbbbbbbbbbb</td>
+                                            <td>ccccccccccccccccccccccc</td>
+                                            <td>xxxxxxxxxxxxxxxxxxxxxxx</td>
+                                            <td>yyyyyyyyyyyyyyyyyyyyyyy</td>
+                                            <td>zzzzzzzzzzzzzzzzzzzzzzz</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>aaaaaaaaaaaaaaaaaaaaaaa</td>
+                                            <td>bbbbbbbbbbbbbbbbbbbbbbb</td>
+                                            <td>ccccccccccccccccccccccc</td>
+                                            <td>xxxxxxxxxxxxxxxxxxxxxxx</td>
+                                            <td>yyyyyyyyyyyyyyyyyyyyyyy</td>
+                                            <td>zzzzzzzzzzzzzzzzzzzzzzz</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>aaaaaaaaaaaaaaaaaaaaaaa</td>
+                                            <td>bbbbbbbbbbbbbbbbbbbbbbb</td>
+                                            <td>ccccccccccccccccccccccc</td>
+                                            <td>xxxxxxxxxxxxxxxxxxxxxxx</td>
+                                            <td>yyyyyyyyyyyyyyyyyyyyyyy</td>
+                                            <td>zzzzzzzzzzzzzzzzzzzzzzz</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>aaaaaaaaaaaaaaaaaaaaaaa</td>
+                                            <td>bbbbbbbbbbbbbbbbbbbbbbb</td>
+                                            <td>ccccccccccccccccccccccc</td>
+                                            <td>xxxxxxxxxxxxxxxxxxxxxxx</td>
+                                            <td>yyyyyyyyyyyyyyyyyyyyyyy</td>
+                                            <td>zzzzzzzzzzzzzzzzzzzzzzz</td>
+                                        </tr>
+
+                                        <tr>
+                                            <th scope="row">2</th>
+                                            <td>aaaaaaaaaaaaaaaaaaaaaaa</td>
+                                            <td>bbbbbbbbbbbbbbbbbbbbbbb</td>
+                                            <td>ccccccccccccccccccccccc</td>
+                                            <td>xxxxxxxxxxxxxxxxxxxxxxx</td>
+                                            <td>yyyyyyyyyyyyyyyyyyyyyyy</td>
+                                            <td>zzzzzzzzzzzzzzzzzzzzzzz</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">3</th>
+                                            <td>aaaaaaaaaaaaaaaaaaaaaaa</td>
+                                            <td>bbbbbbbbbbbbbbbbbbbbbbb</td>
+                                            <td>ccccccccccccccccccccccc</td>
+                                            <td>xxxxxxxxxxxxxxxxxxxxxxx</td>
+                                            <td>yyyyyyyyyyyyyyyyyyyyyyy</td>
+                                            <td>zzzzzzzzzzzzzzzzzzzzzzz</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">4</th>
+                                            <td>aaaaaaaaaaaaaaaaaaaaaaa</td>
+                                            <td>bbbbbbbbbbbbbbbbbbbbbbb</td>
+                                            <td>ccccccccccccccccccccccc</td>
+                                            <td>xxxxxxxxxxxxxxxxxxxxxxx</td>
+                                            <td>yyyyyyyyyyyyyyyyyyyyyyy</td>
+                                            <td>zzzzzzzzzzzzzzzzzzzzzzz</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">5</th>
+                                            <td>aaaaaaaaaaaaaaaaaaaaaaa</td>
+                                            <td>bbbbbbbbbbbbbbbbbbbbbbb</td>
+                                            <td>ccccccccccccccccccccccc</td>
+                                            <td>xxxxxxxxxxxxxxxxxxxxxxx</td>
+                                            <td>yyyyyyyyyyyyyyyyyyyyyyy</td>
+                                            <td>zzzzzzzzzzzzzzzzzzzzzzz</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
+        </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trust Media</title>
+    <link rel="icon" href="./Trust Media.svg" type="img/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <style>
+        #main_header {
+            position: sticky;
+            z-index: 10;
+            top: 0;
+            transition: top 0.8s;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        }
+
+        .img_zoom {
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .img_zoom:hover {
+            transform: scale(1.1);
+        }
+
+
+        @media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-lg-3 {width: 25%;}
+  .col-lg-4 {width: 33.33%;}
+  .col-lg-5 {width: 41.66%;}
+  .col-lg-6 {width: 50%;}
+  .col-lg-8 {width: 66.66%;}
+  .col-lg-12 {width: 100%;}
+}
+    </style>
+
+<body>
+    <header id="main_header">
+        <nav class="navbar navbar-expand-lg bg-light border-bottom pt-4 pb-4 align-items-center">
+            <div class="container-fluid">
+                <a class="navbar-brand " href="#">
+                    <img src="./Trust Media 1.svg"
+                        style="width:212.472px; height:50px; position: relative; left:20px;" />
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse gx-5 navbar-collapse justify-content-end align-content-center" id="navbarNav">
+                    <ul class="navbar-nav  justify-content-end d-flex gap-4">
+                        <li class="nav-item">
+                            <a class="nav-link active text-dark" aria-current="page" href="index.html">
+                                <h5>Product</h5>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="resource.html">
+                                <h5>Resource</h5>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="about.html">
+                                <h5>About</h5>
+                            </a>
+                        </li>
+                        <!-- <li class="nav-item">
+                  <a class="nav-link text-dark" href="#"><h5>Blog</h5></a>
+                </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="login.html">
+                                <h5>Login</h5>
+                            </a>
+                        </li>
+                        <li>
+                            <form class="d-flex navbar-brand">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+
+                                <button class="btn btn-outline-danger" type="submit"><i
+                                        class="bi bi-search"></i></button>
+                            </form>
+                        </li>
+                        <li>
+                            <button type="submit" onclick="location.href='signup2.html';"
+                                class="btn btn-outline-danger rounded-rounded-pill btn-lg">Get Started</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="pt-4 pb-4">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-lg-5 ">
+                    <img class="img-fluid  d-block mx-auto" style="width: 75%;" src="./seo-gac5a91d4b_1920.png" alt="">
+                </div>
+                <div class="col-lg-5 align-items-center justify-content-center m-auto">
+                    <h2>Advertising Platform</h2>
+                    <h3> Good marketing makes the company look smart.Great marketing makes customer feels smart.</h3>
+                    <div class="row justify-content-center">
+                        <a class="btn btn-success rounded-pill btn-lg " href="signup.html">Signup</a>
+                        <!-- <button type="button" class="btn btn-success btn-lg ">Sign Up</button> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- counter -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <barquotes class="barquotes">
+                    <strong>
+                        <p class="fs-1">Company overall achievements :</p>
+                    </strong>
+                </barquotes>
+            </div>
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="card count_data">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <div class="counter col_fourth text-center img_zoom">
+                                    <i class="bi bi-x-diamond-fill justify-content-center align-items-center d-flex pt-2 pb-2"
+                                        style="font-size:75px ;"></i>
+                                    <h2 class="timer count-title count-number text-info pt-2 pb-2" data-to="99"
+                                        data-speed="5500"></h2>
+                                    <h4 class="count-text pt-2 pb-2"><strong>Years Experience</strong></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <div class="counter col_fourth text-center img_zoom">
+                                    <i class="bi bi-person-badge justify-content-center align-items-center d-flex pt-2 pb-2"
+                                        style="font-size:75px ;"></i>
+                                    <h2 class="timer count-title count-number  text-warning pt-2 pb-2" data-to="10000"
+                                        data-speed="11500"></h2>
+                                    <h4 class="count-text pt-2 pb-2"><strong> Team Members</strong></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <div class="counter col_fourth text-center img_zoom">
+                                    <i class="bi bi-person-hearts justify-content-center align-items-center d-flex pt-2 pb-2"
+                                        style="font-size:75px ;"></i>
+                                    <h2 class="timer count-title count-number  text-primary pt-2 pb-2" data-to="2057"
+                                        data-speed="11500"></h2>
+                                    <h4 class="count-text pt-2 pb-2"><strong>Satisfied Client</strong></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <div class="counter col_fourth text-center img_zoom">
+                                    <i class="bi bi-building justify-content-center align-items-center d-flex pt-2 pb-2"
+                                        style="font-size:75px;"></i>
+                                    <h2 class="timer count-title count-number  text-success pt-2 pb-2" data-to="999">
+                                    </h2>
+                                    <h4 class="count-text pt-2 pb-2"><strong>Complete Project</strong></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- access now -->
+    <section class="pt-4 pb-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <img class="img-fluid d-block mx-auto" style="width:65%" src="./access.png">
+                </div>
+                <div class="col-lg-6 d-flex justify-content-center align-items-center">
+                    <h2 class="has-text-color has-huge-font-size font-monospace text-decoration-underline has-mobile-text-align-center"
+                        style="color:blue; font-weight:800;font-family:Arial, Helvetica, sans-serif;">Affiliate Contest
+                        September 2022</h2>
+                </div>
+            </div>
+            <div class="row mx-5">
+                <div class="col-lg-12 ">
+                    <blockquote class="blockquote">
+                        <p class="fw-bolder fs-4 text-align-center justify-content-center d-flex align-items-center">Are
+                            you an Access Now publisher looking to advance your content production strategy? In the
+                            month of September,
+                            Trust media is awarding the top-performing affiliate from Access Now with a Content Refined
+                            package.<br>
+                            Now available in the Access Now course hub, you can complete the trust media Affiliate
+                            Program
+                            Best Practices course and learn how to introduce others to the power of Trust Media
+                            technology.
+                        </p>
+                    </blockquote>
+                    <div class="col d-flex justify-content-center align-items-center">
+                        <a role="button" href="login.html" type="submit" class="btn btn-outline-success btn-lg ">Join
+                            Contest</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="pt-4 pb-4" style="background-color:antiquewhite ;">
+        <div class="container ">
+            <div class="row">
+                <div class="col-lg-4 d-flex justify-content-center align-items-center">
+                    <h2 class="fw-bolder fs-1"
+                        style="color:rgb(28, 48, 86); font-weight:900;font-family:Arial, Helvetica, sans-serif;">
+                        Rapid setup in as little as 15 minutes!!</h2>
+                </div>
+                <div class="col-lg-8">
+                    <div class="wp-container-7 wp-block-column">
+                        <ol class="is-style-tw-border-inner tw-list-spacing-medium has-black-color has-text-color has-mobile-text-align-center has-black-color"
+                            style="font-size:26px;font-style:normal;font-weight:400;line-height:1.5">
+                            <li class="border-bottom border-dark">take our essential course to fully setup Trust media
+                                in 15 minutes</li>
+                            <li class="border-bottom border-dark">Take our optional monetization/speed courses to
+                                further educate yourself on the Trust media
+                                platform and unlock bonus features</li>
+                            <li>Begin optimizing your site with Trust Mediax</li>
+                        </ol>
+                        <div class="col d-flex justify-content-center align-items-center">
+                            <a role="button" href="signup.html" type="button"
+                                class="btn btn-outline-success btn-lg ">Get started</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- card -->
+    <section>
+        <div class="container pt-4 pb-4">
+            <div class="row">
+                <barquotes class="barquotes">
+                    <strong>
+                        <p class="fs-1">Grow faster with Trust Media ever-expanding technology:</p>
+                    </strong>
+                </barquotes>
+            </div>
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-title ">
+                                <i class="bi bi-currency-dollar justify-content-center align-items-center d-flex"
+                                    style="font-size: 50px;color:green"></i>
+                                <br> <strong>Monetization:</strong>
+                            </div>
+                            <p class="card-text">Allow AI to increase revenue and improve UX</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <i class="bi bi-airplane-engines justify-content-center align-items-center d-flex"
+                                    style="font-size: 50px;color:green"></i>
+                                <br> <strong>Site Speed:</strong>
+                            </div>
+                            <p class="card-text">A single platform for site performance (Core Web Vitals)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <i class="bi bi-graph-up-arrow  justify-content-center align-items-center d-flex"
+                                    style="font-size: 50px; color:green"></i>
+                                <br> <strong>SEO and Analytics:</strong>
+                            </div>
+                            <p class="card-text">Easily analyze and test content like never before</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <i class="bi bi-file-earmark-play justify-content-center align-items-center d-flex"
+                                    style="font-size: 50px; color:green"></i>
+                                <br> <strong>Video:</strong>
+                            </div>
+                            <p class="card-text">Enhance revenue & SEO through video technology</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row pb-3 pt-3">
+                <div class="col-lg-3">
+                    <div class="card pt-0 pb-0">
+                        <div class="card-body ">
+                            <div class="card-text">
+                                <ul>
+                                    <li>Gain access to top paying ad networks</li>
+                                    <li>Machine learning that never stops optimizing</li>
+                                    <li>Monetize your ad setup seamlessly using Trust Media advanced technology</li>
+                                    <li>Your preferences guide as it optimizes each visit</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card pt-0 pb-5">
+                        <div class="card-body ">
+                            <div class="card-text">
+                                <ul>
+                                    <li>Boost Core Web Vitals and rank high in Google Search</li>
+                                    <li>Access advanced tools which identify your site’s weaknesses</li>
+                                    <li>Optimize CSS, JavaScript and more to improve User Experience</li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card pt-0 pb-4">
+                        <div class="card-body">
+                            <div class="card-text">
+                                <ul>
+                                    <li>Analyze important data to help you plan content and drive your site’s growth
+                                    </li>
+                                    <li>See real-world engagement by word count and more</li>
+                                    <li>Understand why some pages are high-earning and low-earning</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card pt-0 pb-4">
+                        <div class="card-body">
+                            <div class="card-text">
+                                <ul>
+                                    <li>Use Trust Media Video Player to serve, host and monetize your video content all
+                                        in one place</li>
+                                    <li>Keep your audience engaged and improve SEO</li>
+                                    <li>Start earning revenue through your existing video content</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- signup card -->
+    <section class="pt-2 pb-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="card pt-2 pb-2" style="background-color:azure ;">
+                        <div class="card-body">
+                            <div class="card-text">
+                                <h3>Accelerated support</h3>
+                                <p>Program members get access to Twist for accelerated support. Trust Media team members
+                                    will be actively assisting you and other publishers as you work on setting up your
+                                    site with Trust Media.</p>
+                                <div class="card-text justify-content-center mt-3 text-center">
+                                    <button type="button" class="btn btn-success btn-lg "
+                                        onclick="location.href='signup.html'">Sign Up</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 pt-2 pb-2 align-items-center d-flex">
+                    <img class="img-fluid d-block mx-auto" style="width:65%" src="./laptop-gbe27a1ae9_1280.png">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <section style="background-color:rgb(22, 38, 69) ;">
+        <footer class="footer mt-auto">
+            <div class="container">
+                <div class="row" style="width:90%;padding: 2%;margin-left: auto;margin-right: auto;">
+                    <div class="col-lg-6 text-light" style="margin-top:10px">
+                        <a class="navbar-brand " href="index.html">
+                            <img src="./Trust Media.svg"
+                                style="width:468px; height:80px; position: relative; left:-150px;" />
+                        </a>
+
+                        <p
+                            style="font-size: 12px; color: #ffff;text-align: left; margin-right: 1%;margin-bottom: 0; max-width:90%">
+                            99, Alfred Place,
+                            Bloomsbury,<br>
+                            London WC1E 7DP
+                            United Kingdom</p>
+                    </div>
+                    <div class="col-lg-6 justify-content-end align-items-end text-end">
+                        <h5 style="color: #fff;">Contact us</h5>
+
+                        <p style="font-size: 14px; color: #ffff;text-align: right; margin-left: 3%;margin-bottom: 0; ">
+                            <i class="fa fa-envelope" aria-hidden="true" style="color: #fff;"></i><a href="mailto:#"
+                                style="color: #fff;"> trustmedia@trustmedia.com</a>
+                        </p>
+                        <p style="font-size: 14px; color: #ffff;text-align: right; margin-left: 3%;margin-bottom: 0; ">
+                            <i class="fa fa-phone-square " aria-hidden="true" style="color: #fff;"></i><a
+                                href="tel:+4407648816" style="color: #fff;"> +44-07648816</a>
+                        </p>
+                        <p style="font-size: 14px; color: #ffff;text-align: right; margin-left: 3%;margin-bottom: 0; ">
+                            <a href="https://www.iab.com/wp-content/uploads/2015/06/standards_termsandcond2.pdf"
+                                style="color: #fff;"> Terms and Conditions</a>
+                        </p>
+                        <p style="font-size: 14px; color: #ffff;text-align: right; margin-left: 3%;margin-bottom: 0; ">
+                            <a href="https://iabtechlab.com/privacy-policy/#:~:text=The%20Internet%20is%20a%20public,or%20interference%20by%20third%20parties"
+                                style="color: #fff;"> Privacy Policy</a>
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="container mx-auto">
+                <div class="mx-auto text-light" style="text-align: center;">Copy rights © 2022 All rights reserved by <a
+                        href="https://theleadsense.com/">The Leadsense</a></div>
+            </div>
+        </footer>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- counter script start -->
+    <script>
+        (function ($) {
+            $.fn.countTo = function (options) {
+                options = options || {};
+
+                return $(this).each(function () {
+                    // set options for current element
+                    var settings = $.extend({}, $.fn.countTo.defaults, {
+                        from: $(this).data('from'),
+                        to: $(this).data('to'),
+                        speed: $(this).data('speed'),
+                        refreshInterval: $(this).data('refresh-interval'),
+                        decimals: $(this).data('decimals')
+                    }, options);
+
+                    // how many times to update the value, and how much to increment the value on each update
+                    var loops = Math.ceil(settings.speed / settings.refreshInterval),
+                        increment = (settings.to - settings.from) / loops;
+
+                    // references & variables that will change with each update
+                    var self = this,
+                        $self = $(this),
+                        loopCount = 0,
+                        value = settings.from,
+                        data = $self.data('countTo') || {};
+
+                    $self.data('countTo', data);
+
+                    // if an existing interval can be found, clear it first
+                    if (data.interval) {
+                        clearInterval(data.interval);
+                    }
+                    data.interval = setInterval(updateTimer, settings.refreshInterval);
+
+                    // initialize the element with the starting value
+                    render(value);
+
+                    function updateTimer() {
+                        value += increment;
+                        loopCount++;
+
+                        render(value);
+
+                        if (typeof (settings.onUpdate) == 'function') {
+                            settings.onUpdate.call(self, value);
+                        }
+
+                        if (loopCount >= loops) {
+                            // remove the interval
+                            $self.removeData('countTo');
+                            clearInterval(data.interval);
+                            value = settings.to;
+
+                            if (typeof (settings.onComplete) == 'function') {
+                                settings.onComplete.call(self, value);
+                            }
+                        }
+                    }
+
+                    function render(value) {
+                        var formattedValue = settings.formatter.call(self, value, settings);
+                        $self.html(formattedValue);
+                    }
+                });
+            };
+
+            $.fn.countTo.defaults = {
+                from: 0,               // the number the element should start at
+                to: 0,                 // the number the element should end at
+                speed: 10000,           // how long it should take to count between the target numbers
+                refreshInterval: 100,  // how often the element should be updated
+                decimals: 0,           // the number of decimal places to show
+                formatter: formatter,  // handler for formatting the value before rendering
+                onUpdate: null,        // callback method for every time the element is updated
+                onComplete: 5       // callback method for when the element finishes updating
+            };
+
+            function formatter(value, settings) {
+                return value.toFixed(settings.decimals);
+            }
+        }(jQuery));
+
+        jQuery(function ($) {
+            // custom formatting example
+            $('.count-number').data('countToOptions', {
+                formatter: function (value, options) {
+                    return value.toFixed(options.decimals).replace(/\B(?=(?:\d{3})+(?!\d))/g, ',');
+                }
+            });
+
+            // start all the timers
+            $('.timer').each(count);
+
+            function count(options) {
+                var $this = $(this);
+                options = $.extend({}, options || {}, $this.data('countToOptions') || {});
+                $this.countTo(options);
+            }
+        });
+    </script>
+    <!-- header script -->
+    <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function () {
+
+            var currentScrollpos = window.pageYOffset;
+            if (prevScrollpos > currentScrollpos) {
+                document.getElementById("main_header").style.top = "0";
+            } else {
+                document.getElementById("main_header").style.top = "-109px";
+            }
+
+            prevScrollpos = currentScrollpos;
+
+        }
+    </script>
+</body>
+</html>
